@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-      <form action="<?= $_SERVER["PHP_SELF"] ?>" method="get">
+    <form action="<?= $_SERVER["PHP_SELF"] ?>" method="get">
         <label for="num">Num:</label>
         <input type="number" name="num" id="num">
-
         <input type="submit" value="Calcular">
     </form>
 
@@ -20,9 +19,9 @@
 
         if ($num >= 10) {
             echo "O número $num é maior que dez";
-        } else {
+        }else {
             echo "O número $num é menor que dez";
-        }
+    }
     }
     ?>
 </body>
