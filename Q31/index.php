@@ -24,13 +24,13 @@
 
 if(isset($_POST["n1"])){
 
-$n1 = $_POST["n1"];
-$n2 = $_POST["n2"];
-$n3 = $_POST["n3"];
+    $n1 = $_POST["n1"];
+    $n2 = $_POST["n2"];
+    $n3 = $_POST["n3"];
 
-$numeros = array($n1, $n2, $n3);
-
-sort($numeros);
+    $numeros = array($n1, $n2, $n3);
+    
+    sort($numeros);
 
 echo "Ordem crescente: ";
 echo $numeros[0] . " - " . $numeros[1] . " - " . $numeros[2];
