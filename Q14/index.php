@@ -6,13 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="<?= $_SERVER["PHP_SELF"] ?>" method="get">
+    <form action="" method="get">
         <label for="num1">Num1:</label>
         <input type="number" name="num1" id="num1">
-
         <label for="num2">Num2:</label>
         <input type="number" name="num2" id="num2">
-
         <input type="submit" value="Calcular">
     </form>
 
