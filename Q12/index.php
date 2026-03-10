@@ -9,7 +9,6 @@
     <form action="<?= $_SERVER["PHP_SELF"] ?>" method="get">
         <label for="preco">Valor do carro:</label>
         <input type="number" name="preco" id="preco">
-
         <input type="submit" value="Calcular">
     </form>
 
