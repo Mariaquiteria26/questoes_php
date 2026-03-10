@@ -28,15 +28,15 @@
 <?php
 
     if(isset($_POST["custo"])){
-    $custos = $_POST["custo"];
-    $vendas = $_POST["venda"];
+        $custos = $_POST["custo"];
+        $vendas = $_POST["venda"];
 
-    $somaCusto = 0;
-    $somaVenda = 0;
+        $somaCusto = 0;
+        $somaVenda = 0;
 
     for($i = 0; $i < 40; $i++){
-    $somaCusto += $custos[$i];
-    $somaVenda += $vendas[$i];
+        $somaCusto += $custos[$i];
+        $somaVenda += $vendas[$i];
 
     if($vendas[$i] > $custos[$i]){
         echo "Produto ".($i+1)." → Lucro<br>";
@@ -60,4 +60,5 @@ echo "<br>Média do preço de venda: $mediaVenda";
 
 ?>
 </body>
+
 </html>
