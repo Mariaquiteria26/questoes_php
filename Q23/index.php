@@ -17,7 +17,7 @@
 <?php
 
     if(isset($_POST["numero"])){
-    $numero = $_POST["numero"];
+        $numero = $_POST["numero"];
 
     if($numero > 80){
         echo "O número é maior que 80";
@@ -32,4 +32,5 @@
 
 ?>
 </body>
+
 </html>
