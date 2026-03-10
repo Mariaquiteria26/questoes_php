@@ -13,8 +13,8 @@
         <br><br>
         Sexo:
         <select name="sexo" required>
-        <option value="M">Masculino</option>
-        <option value="F">Feminino</option>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
         </select>
         <br><br>
         Idade:
@@ -29,11 +29,10 @@
 <?php
 
     if(isset($_POST["nome"])){
-
-    $nome = $_POST["nome"];
-    $sexo = $_POST["sexo"];
-    $idade = $_POST["idade"];
-    $salario = $_POST["salario"];
+        $nome = $_POST["nome"];
+        $sexo = $_POST["sexo"];
+        $idade = $_POST["idade"];
+        $salario = $_POST["salario"];
 
     if($sexo == "M"){
 
