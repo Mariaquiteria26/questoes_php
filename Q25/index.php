@@ -15,22 +15,22 @@
         <input type="number" name="num2" required>
         <br><br>
         <input type="submit" value="Verificar">
-</form>
+    </form>
 
 <?php
 
     if(isset($_POST["num1"])){
-    $num1 = $_POST["num1"];
-    $num2 = $_POST["num2"];
+        $num1 = $_POST["num1"];
+        $num2 = $_POST["num2"];
 
     if($num1 == $num2){
-    echo "Os números são iguais";
+        echo "Os números são iguais";
 }
     else{
-    echo "Os números são diferentes <br>";
+        echo "Os números são diferentes <br>";
     if($num1 > $num2){
         echo "O maior número é: $num1";
-    }
+}
     else{
         echo "O maior número é: $num2";
 }
