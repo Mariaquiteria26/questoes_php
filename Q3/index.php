@@ -18,12 +18,13 @@
     if (isset($_GET['calcular'])) {
         $distancia = $_GET['distancia'];
         $combustivel = $_GET['combustivel'];
-        if ($combustivel != 0) {
-            $consumo = $distancia / $combustivel;
-            echo "<h3>O consumo médio do veículo é: $consumo km/l</h3>";
-        } else {
-            echo "<h3>O consumo médio do veículo é: Não é possível calcular o consumo com combustível gasto igual a zero.</h3>";
-        }
+        
+    if ($combustivel != 0) {
+        $consumo = $distancia / $combustivel;
+        echo "<h3>O consumo médio do veículo é: $consumo km/l</h3>";
+    }else {
+        echo "<h3>O consumo médio do veículo é: Não é possível calcular o consumo com combustível gasto igual a zero.</h3>";
+    }
     }
     ?>
 </body>
