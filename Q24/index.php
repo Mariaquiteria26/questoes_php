@@ -16,7 +16,7 @@
 <?php
 
     if(isset($_POST["qtd"])){
-    $qtd = $_POST["qtd"];
+        $qtd = $_POST["qtd"];
 
 ?>
 
@@ -37,18 +37,18 @@
 }
 
     if(isset($_POST["verificar"])){
-    $numeros = $_POST["numeros"];
-    $qtd = count($numeros);
+        $numeros = $_POST["numeros"];
+        $qtd = count($numeros);
 
     for($i = 0; $i < $qtd; $i++){
-    if($numeros[$i] > 0){
-        echo $numeros[$i] . " é POSITIVO <br>";
+        if($numeros[$i] > 0){
+            echo $numeros[$i] . " é POSITIVO <br>";
     }
-    else if($numeros[$i] < 0){
-        echo $numeros[$i] . " é NEGATIVO <br>";
+        else if($numeros[$i] < 0){
+            echo $numeros[$i] . " é NEGATIVO <br>";
     }
-    else{
-        echo $numeros[$i] . " é ZERO <br>";
+        else{
+            echo $numeros[$i] . " é ZERO <br>";
 }
 }
 }
@@ -56,4 +56,5 @@
 ?>
 
 </body>
+
 </html>
