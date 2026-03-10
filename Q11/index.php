@@ -27,4 +27,5 @@
         echo "<h3>O valor de venda é: R$ $valor_venda</h3>";
     }
     ?>
+</body>
 </html>
